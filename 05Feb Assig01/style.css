@@ -1,0 +1,99 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* nav bar */
+nav .navbar-nav{
+    float: right;
+}
+nav .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+.navbar-brand{
+  font-size: 30px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.navbar-brand:hover{
+  color: white;
+}
+
+.navBg  {
+  background-color: #B3AFB2;
+}
+
+ nav .navbar-nav  li a {
+     font-size: medium;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ nav .navbar-nav li a:hover {
+    background-color: #757375 ;
+    color: white;
+  }
+
+nav .navbar-nav li.active a{
+  background-color: #757375 ;
+    color: white;
+}
+
+/* index page */
+
+#gallery{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* courses page */
+.coursesBg{
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f5dfef;
+  padding: 15px;
+}
+
+/* contact us page */
+  .card{
+    border: 2px solid #e1e1e1;
+  }
+  .card-body{
+    
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: #e1e1e1;
+
+  }
+
+  .card-header{
+    border-bottom: 2px solid #e1e1e1;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* background-color: #e1e1e1; */
+  }
+
+  .buttonColor{
+    background-color: #6FB905;
+    padding: 10px;
+    font-size: 20px;
+    color: #e1e1e1;
+    
+    
+  }
+  .buttonColor:hover{
+    background-color: #6FB970;
+  }
